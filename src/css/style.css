@@ -1,0 +1,83 @@
+header .navegation-bar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-change {
+    width: 85px;
+    background-color: #aaa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+    border-radius: 25px;
+}
+
+.button-color {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    /*background-color: #333;*/
+}
+
+.to-change {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.to-change .box {
+    background-color: #aaa;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/*Light mode active*/
+
+#light.button-color.active {
+    background-color: #dc9;
+}
+
+/*Dark mode*/
+
+#dark.button-color.active {
+    background-color: #dfc;
+}
+
+.to-change.dark-mode {
+    background-color: #002;
+}
+
+.to-change.dark-mode .box {
+    background-color: #104;
+    color: #fff;
+}
+
+.navegation-bar.dark-mode {
+    background-color: #000;
+    color: aliceblue;
+}
+
+/*Purple mode*/
+#purple.button-color.active {
+    background-color: #aff;
+}
+
+
+.to-change.purple-mode {
+    background-color: #af9ade;
+}
+
+.to-change.purple-mode .box {
+    background-color: #e0a0ff;
+    color: #0ad;
+    text-shadow: 0 0 1px #000;
+}
+
+.navegation-bar.purple-mode {
+    background-color: #8a00a9;
+    color: aliceblue;
+}
