@@ -2,7 +2,7 @@
 
 ### Resultado
 
-[<img src='src/result/result.gif'>]
+<img src='src/result/result.gif'>
 
 ## Tecnologias utilizadas
 
